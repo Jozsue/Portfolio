@@ -181,9 +181,30 @@
 
 #Section3{
     background-color: rgb(61, 58, 68);
-    min-height: 500px;
+    min-height: 300px;
 }
 
+.btn-enviar{
+    width: 35%;
+    font-size: 23px;
+    font-weight: 600;
+    color: #1c1c1c;
+    border: 0;
+    border-radius: 25px;
+    background-color: #4ca3d9;
+    box-shadow: 0 0 8px #4ca3d9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover{
+    font-size: 27px;
+    color: #fffffc;
+    background-color: #27418e;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(66, 201, 255);
+    transition: 0.4s;
+}
 
 
 /*========================================================*/
