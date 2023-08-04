@@ -18,32 +18,35 @@
 <body bgcolor="#3d3a44">
     <font color="#ffffc">
         <header id="header">
-            <div class="navegar">
-                <a href="file:///C:/Users/jozsu/OneDrive/Escritorio/Portafolio/Index.html" id="marca">Josué A.
-                    Santos</a>
-            </div>
+            <nav class="navbar navbar-expand-lg" id="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#main" id="marca">Josué A. Santos</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" id="navlink1" href="#Section1">About me</a>
+                      <a class="nav-link" id="navlink2" href="#Section2">Portfolio</a>
+                      <a class="nav-link" id="navlink3" href="#Section3">Contact</a>
+                    </div>
+                  </div>
+                </div>
+            </nav>
         </header>
 
         <main id="main" background="./img/banner.jpg">
             <img src="./img/me.jpg" alt="me" class="rounded-circle" id="Yo">
-            <div class="presentacion">
-                <div id="saludo">
-                    <b>Hi, am Josué Anibal,</b>
+                <div class="presentacion">
+                    <div id="saludo">
+                        <b>Hi, am Josué Anibal,</b>
+                    </div>
+                    <div id="presentacion">
+                        Frontend Web Developer.
+                    </div>
                 </div>
-                <div id="presentacion">
-                    Frontend Developer.
-                </div>
-            </div>
-
             <br>
 
-            <a href="#Section2"><button type="button" class="btn btn-outline-warning">About me</button></a>
-
-            <a href="#Section1"><button type="button" class="btn btn-outline-warning">Knowledge</button></a>
-
-            <a href="#Section3"><button type="button" class="btn btn-outline-warning">Experience</button></a>
-
-            <a href="#Section4"><button type="button" class="btn btn-outline-warning">Contact</button></a>
         </main>
 
 
@@ -69,7 +72,9 @@
                     <div class="block">
                         <h3 id="Skills">
                             <b>
-                                My Skills: <br> <br> <img src="./img/HTML5.png" alt="HTML5" id="html" width="70"
+                                My Skills: <br> <br>
+                                
+                                <img src="./img/HTML5.png" alt="HTML5" id="html" width="70"
                                     class="img-fluid">
                                 <img src="./img/4672509.png" alt="CSS3" id="css" width="70" class="img-fluid">
                                 <img src="./img/JavaScript-Emblem-500x281.png" alt="Javascript" id="js" width="70"

@@ -4,10 +4,17 @@
     margin: 0%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #marca:link, #marca:visited, #marca:active #marca:hover {
+    margin-left: 5%;
     text-decoration:none;
     background-color: rgb(24, 24, 92);
     color: #fffffc;
+    font-weight: 500;
+    font-size: larger;
 }
 
 [class*=boton-]{
@@ -18,11 +25,12 @@
 
 .btn{
     color: #fffffc;
-    border: 0;
-    border-radius: 25px;
-    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
-    cursor: pointer;
 }
+
+.btn-outline-warning{
+    float: right;
+}
+
 
 
 /*===========================================*/
@@ -32,17 +40,40 @@
     width: 100%;
     min-height: 50px;
     padding-left: 10%;
-    padding-right: 10%;
     position: fixed;
     z-index: 100;
 }
 
 /*===========================================*/
 
-.navegar{
+.container-fluid{
     background-color: rgb(24, 24, 92);
-    font-size: 30px;
-    padding-top: 10px;
+    color: #fffffc;
+    font-size: larger;
+}
+
+#navbar{
+    font-size: larger;
+    font-weight: 400;
+    background-color: rgb(24, 24, 92);
+    background-size: 100%;
+    color: #fffffc;
+}
+
+#navlink1{
+    color: #fffffc;
+}
+
+#navlink2{
+    color: #fffffc;
+}
+
+#navlink3{
+    color: #fffffc;
+}
+
+.navbar-nav{
+    margin-left: 35%;
 }
 
 
@@ -62,8 +93,11 @@
 /*===========================================*/
 
 .presentacion{
-    padding-top: 12%;
-    padding-right: 10%;
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(0.2rem);
+    background-color: #00000010;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
 }
 
 /*===========================================*/
@@ -72,7 +106,6 @@
     width: 30%;
     float: left;
     border: 5px solid #fffffc;
-    margin-top: 8%;
     margin-right: 5%;
 }
 
@@ -84,6 +117,8 @@
     padding-left: 10%;
     padding-right: 10%;
     min-height: 500px;
+    display: flex;
+    align-items: center;
 }
 
 /*===========================================*/
@@ -109,23 +144,19 @@
     justify-content: center;
 }
 
-#nosexd{
-    max-width: 50%;
-}
-
 #Quien-soy{
     width: 50%;
 }
 
 #who{
     display: flex;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 4%;
 }
 
 #who2{
     display: flex;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 12px;
 }
@@ -134,7 +165,7 @@
     float: left;
     margin-right: 15%;
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .block{
@@ -143,18 +174,30 @@
 
 #DownloadCV{
     float: right;
+    margin-top: 15%;
     margin-right: 15%;
     font-size: 30px;
 }
 
 #cvbutton{
+    margin-top: 1%;
     margin-left: 30px;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(23, 220, 255);
+    transition: 0.2s;
 }
 
+#cvbutton:hover{
+    background-color: #173181;
+    font-size: 20px;
+    transition: 0.2s;
+}
 
 #Skills{
     float: left;
-    margin-right: 50%;
+    margin-top: 6%;
+    margin-right: 30%;
     font-size: 30px;
     margin-left: 5%;
 }
@@ -165,7 +208,9 @@
     align-items: flex-start;
     width: 30%;
     float: right;
+    margin-top: 2%;
     margin-right: 8%;
+    margin-left: 2%;
     font-size: 19px;
 }
 

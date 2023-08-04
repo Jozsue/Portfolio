@@ -21,10 +21,11 @@ body{
     z-index: 100;
 }
 
-#marca:link, #marca:visited, #marca:active #marca:hover {
+#marca:link, #marca:visited, #marca:active, #marca:hover {
     text-decoration:none;
     background-color: rgb(24, 24, 92);
     color: #fffffc;
+    font-weight: 600;
 }
 
 main{
