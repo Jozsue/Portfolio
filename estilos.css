@@ -76,6 +76,21 @@ html{
     margin-left: 35%;
 }
 
+.nav-link{
+    border-radius: 30px;
+    transition: 2ms;
+}
+
+.nav-link:hover{
+    color: #1c1c1c;
+    border-radius: 30px;
+    background-color: #0051ff;
+    transition: 0.3s;
+}
+
+.navbar-toggler{
+    margin-right: 15%;
+}
 
 /*===========================================*/
 
