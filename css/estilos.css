@@ -27,10 +27,6 @@ html{
     color: #fffffc;
 }
 
-.btn-outline-warning{
-    float: right;
-}
-
 
 
 /*===========================================*/
@@ -115,6 +111,21 @@ html{
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
 }
 
+#Contact_me{
+    margin-top: 1%;
+    margin-left: 30px;
+    border: 0;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+#Contact_me:hover{
+    background-color: #173181;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgb(23, 220, 255);
+    transition: 0.2s;
+}
+
 /*===========================================*/
 
 #Yo{
@@ -127,20 +138,17 @@ html{
 /*===========================================*/
 
 #main{
-    background-image: url(./img/banner.jpg);
+    background-image: url(C:/Users/jozsu/OneDrive/Escritorio/Portafolio/img/banner.jpg);
     background-size: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    min-height: 500px;
+    min-height: 600px;
     display: flex;
     align-items: center;
 }
 
 /*===========================================*/
 
-[class*="btn btn-outline-warning"]{
-    margin: 5px;
-}
 
 #Section1{
     background-color: rgb(61, 58, 68);
@@ -215,6 +223,12 @@ html{
     margin-right: 30%;
     font-size: 30px;
     margin-left: 5%;
+}
+
+#css{
+    position: relative;
+    bottom: 3px;
+    left: 3px;
 }
 
 .DA{
