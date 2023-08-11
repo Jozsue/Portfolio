@@ -112,16 +112,16 @@ html{
 }
 
 #Contact_me{
-    margin-top: 1%;
-    margin-left: 30px;
     border: 0;
+    margin-top: 5%;
+    font-size: 20px;
     border-radius: 25px;
     transition: 0.2s;
 }
 
 #Contact_me:hover{
     background-color: #173181;
-    font-size: 20px;
+    font-size: 25px;
     box-shadow: 0 0 10px rgb(23, 220, 255);
     transition: 0.2s;
 }
@@ -204,7 +204,6 @@ html{
 
 #cvbutton{
     margin-top: 1%;
-    margin-left: 30px;
     border: 0;
     border-radius: 25px;
     box-shadow: 0 0 10px rgb(23, 220, 255);
@@ -281,9 +280,6 @@ html{
     transition: 0.4s;
 }
 
-/*========================================================*/
-
-
 
 
 
@@ -302,22 +298,24 @@ html{
     background-color: rgb(23, 19, 53);
     border-top: 4px solid #575a83;
     padding-bottom: 10px;
+    text-decoration: none;
+}
+
+#footer{
+    text-decoration:none;
 }
 
 .contacto{
-    text-decoration:none;
-    padding-top: 20px;
-    font-size: 1px;
-    block-size: 10px;
+    text-decoration: none;
     
 }
 
 [class*="fa-"]{
     text-decoration: none;
-    margin-left: 7px;
+    margin-left: 4px;
     margin-right: 7px;
     margin-bottom: 10px;
+    margin-top: 10px;
     font-size: 30px;
     color: #c0c0c0;
 }
-
