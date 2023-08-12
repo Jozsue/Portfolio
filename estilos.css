@@ -139,7 +139,7 @@ html{
 /*===========================================*/
 
 #main{
-    background-image: url(Portafolio/img/banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-size: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -260,14 +260,14 @@ html{
 }
 
 .card-img{
-    width: 70px;
+    width: 80px;
     margin: 5%;
     transition: 0.2s;
 }
 
 
 .card-img:hover{
-    width: 80px;
+    scale: 1.3;
     transition: 0.3s;
 }
 
