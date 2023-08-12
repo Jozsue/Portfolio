@@ -38,6 +38,7 @@ html{
     padding-left: 10%;
     position: fixed;
     z-index: 100;
+    font-size: larger;
 }
 
 /*===========================================*/
@@ -138,7 +139,7 @@ html{
 /*===========================================*/
 
 #main{
-    background-image: url(C:/Users/jozsu/OneDrive/Escritorio/Portafolio/img/banner.jpg);
+    background-image: url(Portafolio/img/banner.jpg);
     background-size: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -218,7 +219,7 @@ html{
 
 #Skills{
     float: left;
-    margin-top: 6%;
+    margin-top: 1%;
     margin-right: 30%;
     font-size: 30px;
     margin-left: 5%;
@@ -255,7 +256,19 @@ html{
 
 #Section3{
     background-color: rgb(61, 58, 68);
-    min-height: 300px;
+    min-height: 500px;
+}
+
+.card-img{
+    width: 70px;
+    margin: 5%;
+    transition: 0.2s;
+}
+
+
+.card-img:hover{
+    width: 80px;
+    transition: 0.3s;
 }
 
 .btn-enviar{
@@ -312,10 +325,16 @@ html{
 
 [class*="fa-"]{
     text-decoration: none;
-    margin-left: 4px;
-    margin-right: 7px;
+    margin-left: 2px;
+    margin-right: 2px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 30px;
     color: #c0c0c0;
+}
+
+[class*="fa-links"]{
+    width: 20px;
+    margin: 0%;
+    padding: 0%;
 }
