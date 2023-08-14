@@ -15,6 +15,7 @@ html{
     color: #fffffc;
     font-weight: 500;
     font-size: larger;
+    float: left;
 }
 
 [class*=boton-]{
@@ -35,7 +36,6 @@ html{
     background-color: rgb(24, 24, 92);
     width: 100%;
     min-height: 50px;
-    padding-left: 10%;
     position: fixed;
     z-index: 100;
     font-size: larger;
@@ -75,13 +75,12 @@ html{
 
 .nav-link{
     border-radius: 30px;
-    transition: 2ms;
+    transition: .3s;
+    float: left;
 }
 
 .nav-link:hover{
-    color: #1c1c1c;
-    border-radius: 30px;
-    background-color: #0051ff;
+    scale: 1.1;
     transition: 0.3s;
 }
 

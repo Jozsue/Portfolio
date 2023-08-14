@@ -1,10 +1,10 @@
-@media(min-width:1280px){
+@media(max-width:1280px){
     header{
         font-size: large;
     }
 
     #Yo{
-        max-width: 35%;
+        width: 35%;
     }
 
     #About.contenedor{
@@ -44,12 +44,17 @@
 
  
 @media(max-width:1024px){
-    main{
-        min-height: 300px;
+    #header{
+        font-size:medium;
+    }
+
+    .nav-link{
+        margin-top: 1%;
+        margin-bottom: -5%;
     }
 
     #Yo{
-        width: 50%;
+        width: 40%;
         margin-bottom: 0%;
     }
 
@@ -72,17 +77,30 @@
 
 
 @media(max-width:900px){
+    #header{
+        font-size: smaller;
+    }
+
+    #navbar-nav{
+        font-size: smaller;
+    }
+
+    .navbar-brand{
+        margin-left: -5%;
+    }
+
     #contenedor{
         display: flex;
         flex-direction: column;
     }
 
     #Yo{
-        width: 50%;
+        width: 40%;
         margin-top: 1%;
     }
+
     .presentacion{
-        width: 40%;
+        width: 60%;
         margin-top: 1%;
     }
 
