@@ -20,6 +20,10 @@
         font-size: 23px;
     }
 
+    .SectTitle{
+        font-size:45px;
+    }
+
     #Quien_soy{
         width: 80%;
     }
@@ -63,6 +67,10 @@
 
     #sobre_mi{
         width: 90%;
+    }
+
+    .SectTitle{
+        font-size:42px;
     }
 
     #Skills{
@@ -109,6 +117,10 @@
 
     #Skills{
         width: 90%;
+    }
+
+    #blocimg{
+        margin-right: 15%;
     }
 }
 
@@ -207,6 +219,13 @@
 /*=====================================================================*/
 
 
+@media(max-width:672px){
+    #blocimg{
+        width: 190px;
+    }
+}
+
+
 @media(max-width:640px){
     #header{
         font-size: larger;
@@ -298,6 +317,10 @@
 
     #cvbutton{
         font-size: 15px;
+    }
+
+    #blocimg{
+        margin-right: 10%;
     }
 }
 
@@ -396,6 +419,10 @@
     #cvbutton{
         font-size: 15px;
     }
+
+    #blocimg{
+        width: 160px;
+    }
 }
 
 
@@ -489,6 +516,10 @@
 
     #ul{
         font: 10px;
+    }
+
+    #blocimg{
+        width: 120px;
     }
 }
 

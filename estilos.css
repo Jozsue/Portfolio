@@ -117,13 +117,29 @@ html{
     font-size: 20px;
     border-radius: 25px;
     transition: 0.2s;
+    margin-right: 5%;
 }
 
 #Contact_me:hover{
-    background-color: #173181;
+    background-color: #15389e;
     scale: 1.2;
-    box-shadow: 0 0 10px rgb(23, 220, 255);
+    box-shadow: 0 0 8px rgb(23, 220, 255);
+    transition: 0.3s;
+}
+
+#Blocbutton{
+    border: 0;
+    margin-top: 5%;
+    font-size: 20px;
+    border-radius: 25px;
     transition: 0.2s;
+}
+
+#Blocbutton:hover{
+    background-color: #15389e;
+    scale: 1.2;
+    box-shadow: 0 0 8px rgb(23, 220, 255);
+    transition: 0.3s;
 }
 
 /*===========================================*/
@@ -139,7 +155,8 @@ html{
 
 #main{
     background-image: url(./img/banner.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-left: 10%;
     padding-right: 10%;
     min-height: 600px;
@@ -152,14 +169,13 @@ html{
 
 #Section1{
     background-color: rgb(61, 58, 68);
-    min-height: 600px;
+    padding-bottom: 1%;
     border-bottom: 3px solid #9091a1;
     border-top: 2px solid #9697ad;
 }
 
 #About{
     padding-top: 20px;
-    border-bottom: 1px solid #7c7d8b;
 }
 
 #About{
@@ -216,7 +232,7 @@ html{
 
 #Skills{
     float: left;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-right: 30%;
     font-size: 30px;
     margin-left: 0%;
@@ -303,7 +319,6 @@ html{
     padding-top: 20px;
     margin-left: 5%;
 }
-
 
 #footer{
     background-color: rgb(23, 19, 53);
